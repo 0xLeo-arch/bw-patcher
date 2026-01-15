@@ -37,7 +37,7 @@ if st.checkbox('Speed Limit Sport (SLS)'):
     patches.append(f'sls={sls_speed}')
 
 if st.checkbox('Speed Limit Drive (SLD)'):
-    sld_speed = st.slider("Max Speed (SLD)", 1.0, 39.5, 15.5, 0.1)
+    sld_speed = st.slider("Max Speed (SLD)", 1.0, 45.5, 15.5, 0.1)
     patches.append(f'sld={sld_speed}')
 
 if scooter_model in ['mi4', 'ultra4']:
